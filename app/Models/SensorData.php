@@ -13,6 +13,9 @@ class SensorData extends Model
 
     protected $fillable = [
         'turbidity',
+        'ph',
+        'temperature',
+        'tds',
         'status'
     ];
 }
